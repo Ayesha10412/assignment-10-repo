@@ -1,11 +1,18 @@
 const donationBtn= document.getElementById('donation-btn');
-const historyBtn= document.getElementById('history-btn');
-
-function btnClicker(event){
-   event.classList.add('bg-primary');
-   event.classList.add('border-none');
-   event.classList.add('text-text');
-   event.classList.add('font-bold');
+function btnClicker(even){
+   even.classList.add('bg-primary');
+   even.classList.add('border-none');
+   even.classList.add('text-text');
+   even.classList.add('font-bold');
 
 
 }
+function pageOn(click){
+    if(click==='next'){
+        window.location.href='./blog.html';
+    }
+    else if(click==='back'){
+        window.history.back();
+    }
+}
+

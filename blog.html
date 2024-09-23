@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq</title>
+
+
+<!-- daisyUI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- tailwind -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'primary': '#B4F461',
+            'text' : '#111111',
+            'texts': 'rgba(17, 17, 17, 0.70)',
+            'border': 'rgba(17, 17, 17, 0.30)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+ <style>
+     .lexend {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ </style>
+<!-- font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="font-lexend">
+    <main class="w-full m-auto">
+
+        <section class="w-full m-auto   ">
+            <!-- nav-container -->
+            <div class="w-full bg-[#F9F7F3] pt-1 mb-16 h-[150px] pb-1">
+                <div class="flex items-center justify-between w-[80%] mx-auto mt-10  ">
+                    <button id="blog-btn" onclick="pageOn('back')" class="btn bg-primary px-5 text-text font-semibold text-sm">Home</button>
+                    
+                    <div class="flex flex-row  items-center gap-3">
+                        <img src="./assets/logo.png" alt="">
+                    <h4 class="text-text font-semibold text-xl">
+                        Donate Bangladesh</h4>
+                    </div>
+                    
+                    <div class="flex flex-row  items-center gap-2">
+                        <img src="./assets/coin.png" alt="">
+                        <p class="text-texts font-medium text-xl"><span>5500</span>
+                        <span>BDT</span></p>
+                    </div>
+                    </div>
+            </div>
+            
+            <!-- <div class="flex items-center justify-center gap-3">
+                <button id="donation-btn" onclick="btnClicker(this)" class="btn border-2 border-border text-texts text-sm bg-none">Donation</button>
+                <button id="history-btn"  class="btn border-2 border-border text-texts text-sm bg-none">
+                    History</button>
+            </div> -->
+            
+            </section>
+<!-- question and answer section -->
+ <section class="w-[90%] mx-auto">
+
+<h2 class="text-5xl font-bold text-text mb-12">Important FAQ <i class="fa-regular fa-circle-question ml-3"></i></h2>
+<div>
+
+    <div class="join join-vertical w-full">
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium text-text">What is the Document Object Model (DOM)?</div>
+          <div class="collapse-content">
+            <p class="text-sm text-texts font-normal">hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium text-text"> How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p class="text-sm text-texts font-normal">hello</p>
+            </div>
+          </div>
+  
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium text-text">What is event delegation in the context of the DOM, and why is it useful?</div>
+            <div class="collapse-content">
+              <p class="text-sm text-texts font-normal">hello</p>
+            </div>
+          </div>
+  
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium text-text">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p class="text-sm text-texts font-normal">hello</p>
+            </div>
+          </div>
+  
+
+      </div>
+
+
+</div>
+
+ </section>
+
+    </main>
+    <script src="./js/home.js"></script>
+</body>
+</html>
