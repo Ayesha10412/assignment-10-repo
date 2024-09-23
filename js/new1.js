@@ -9,7 +9,9 @@ const mainMoney= getMoneyFieldValue('total-amount');
 
 
 if((isNaN(inputsMoney)) || (inputsMoney<0) || (mainMoney<inputsMoney) ){
+    document.getElementById('my_modal_1').classList.add('hidden');
     return alert('Invalid Input');
+    
 }
 
 else{
@@ -24,6 +26,9 @@ const updateMainSectionMoney = mainMoney - inputsMoney ;
 document.getElementById('noakhali').innerText = updateSectionMoney;
 
 document.getElementById('total-amount').innerText = updateMainSectionMoney;
+
+document.getElementById('my_modal_1').classList.remove('hidden');
+
 
 // history
 const historyFromEl = document.getElementById('history-form');

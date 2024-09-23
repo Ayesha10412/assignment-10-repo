@@ -9,8 +9,11 @@ document.getElementById('quota-btn').addEventListener('click', function(event){
     const mainMoney= getMoneyFieldValue('total-amount');
 
     if((isNaN(inputsMoney)) || (inputsMoney<0) || (mainMoney<inputsMoney) ){
+        document.getElementById('my_modal_3').classList.add('hidden');
         return alert('Invalid Input');
+
     }
+    
     
     else{
     
@@ -25,6 +28,12 @@ document.getElementById('quota-btn').addEventListener('click', function(event){
     
     document.getElementById('total-amount').innerText = updateMainSectionMoney;
     
+
+document.getElementById('my_modal_3').classList.remove('hidden');
+
+
+// window.location.reload();
+
 // history
 const historyFromEl = document.getElementById('history-form');
  
