@@ -2,9 +2,8 @@
 
 
 document.getElementById('quota-btn').addEventListener('click', function(event){
+    
     event.preventDefault();
-    
-    
     const inputsMoney = getInputFieldValue('input-box-quota')
     const mainMoney= getMoneyFieldValue('total-amount');
 
@@ -31,9 +30,7 @@ document.getElementById('quota-btn').addEventListener('click', function(event){
     document.getElementById('total-amount').innerText = updateMainSectionMoney;
     
 
-// document.getElementById('my_modal_3').classList.remove('hidden');
 document.getElementById('my_modal_3').showModal();
-
 
 // window.location.reload();
 
@@ -57,5 +54,6 @@ historyFromEl.appendChild(div);
 
 
     }
+    
     
     })
