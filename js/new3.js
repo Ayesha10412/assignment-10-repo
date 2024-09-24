@@ -40,7 +40,7 @@ const historyFromEl = document.getElementById('history-form');
 const div= document.createElement('div');
 div.innerHTML= `
 <div class="bg-white border-2 border-[rgba(17, 17, 17, 0.10)] rounded-xl p-5 mt-14 mb-10 > <h4 class="text-text font-extrabold text-3xl mb-7">
-${updateSectionMoney} Taka is Donated for Aid for Injured in the Quota Movement
+${inputsMoney} Taka is Donated for Aid for Injured in the Quota Movement
 </h4>
 <p class="text-xs text-texts font-normal mt-4">Date: ${new Date()}</p>
 
