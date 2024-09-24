@@ -10,7 +10,9 @@ document.getElementById('feni-btn').addEventListener('click', function(event){
 
     
     if((isNaN(inputsMoney)) || (inputsMoney<0) || (mainMoney<inputsMoney) ){
-        document.getElementById('my_modal_2').classList.add('hidden');
+        // document.getElementById('my_modal_2').classList.add('hidden');
+        document.getElementById('my_modal_2').close() ;
+
         return alert('Invalid Input');
     
     }
@@ -28,15 +30,17 @@ document.getElementById('feni-btn').addEventListener('click', function(event){
     
     document.getElementById('total-amount').innerText = updateMainSectionMoney;
     
-    document.getElementById('my_modal_2').classList.remove('hidden');
+    // document.getElementById('my_modal_2').classList.remove('hidden');
+    document.getElementById('my_modal_2').showModal();
+
 
 // history
 const historyFromEl = document.getElementById('history-form');
  
 const div= document.createElement('div');
 div.innerHTML= `
-<div class="bg-white border-2 border-[rgba(17, 17, 17, 0.10)] rounded-xl p-5 mt-14 mb-10 > <h4 class="text-text font-bold text-3xl mb-7">
-${updateSectionMoney} Taka is Donated for Flood Relief in Feni,Bangladesh
+<div class="bg-white border-2 border-[rgba(17, 17, 17, 0.10)] rounded-xl p-5 mt-14 mb-10 > <h4 class="text-text font-extrabold text-3xl mb-7">
+${updateSectionMoney} Taka is Donated for Flood Relief in Feni, Bangladesh
 </h4>
 <p class="text-xs text-texts font-normal mt-4">Date: ${new Date()}</p>
 
