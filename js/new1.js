@@ -8,7 +8,7 @@ const inputsMoney = getInputFieldValue('input-box');
 const mainMoney= getMoneyFieldValue('total-amount');
 
 
-if((isNaN(inputsMoney)) || (inputsMoney<0) || (mainMoney<inputsMoney) ){
+if((isNaN(inputsMoney)) || (inputsMoney<0) || (mainMoney<inputsMoney)){
     // document.getElementById('my_modal_1').classList.add('hidden');
     document.getElementById('my_modal_1').close() ;
 
