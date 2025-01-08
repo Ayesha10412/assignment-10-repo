@@ -33,6 +33,10 @@
 --CSS: For styling and layout design.
 --JavaScript: For interactive elements and form handling.
 
+## Dependencies
+This project primarily uses vanilla HTML, CSS, and JavaScript, without external libraries. 
+
+
 ## Functionalities
 
 - **Donation and History Button Functionality**:
@@ -69,3 +73,20 @@
 - **Static Modal**: Display a static modal instead of an alert on a successful donation.
 - **Reusable Functions**: Use at least 2 common functions.
 - **Responsive Design**: Ensure the application is responsive for different screen sizes.
+
+- How to Run Locally
+# Clone the Repository:
+
+git clone https://github.com/ayesha10412/assignment-10-repo.git
+# Navigate to the Project Folder:
+
+cd assignment-10-repo
+# Open in Browser:
+Open the index.html file in your preferred web browser.
+
+## Live Link & Relevant Links
+Live Website:(https://ayesha10412.github.io/assignment-10-repo/)
+GitHub Repository: (https://github.com/Ayesha10412/assignment-10-repo)
+
+
+
