@@ -25,6 +25,13 @@
   - Input field for donation amount.
   - Button for submitting the donation.
 - **History Section**: Initially hidden and empty.
+- 
+## Technologies Used
+-The main technologies utilized in this project are:
+
+--HTML: For structuring the web content.
+--CSS: For styling and layout design.
+--JavaScript: For interactive elements and form handling.
 
 ## Functionalities
 
